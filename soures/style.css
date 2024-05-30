@@ -1,0 +1,56 @@
+@keyframes color-change {
+    16% {
+      color: rgb(255, 0, 0);
+    }
+  
+    32% {
+      color: orange;
+    }
+  
+    48% {
+      color: yellow;
+    }
+    64% {
+        color: green;
+      }
+    80% {
+       color: blue;
+    }
+    96% {
+        color: purple;
+     }
+    100% {
+        color: red;
+     }
+}
+
+.first{
+    font-size:17px;
+    color:aqua;
+    
+}
+
+h2 {
+    font-size: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+body{
+    background-color: black;
+    
+     
+    
+}
+
+img{
+    width: 250px;
+    height: 250px;
+
+}
+.p {
+    color: greenyellow;
+}
+h1:hover {
+    animation: color-change 4s infinite;
+    
+}
